@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    /* width: 100px; */
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+   align-self: center;
+   
+}
+
+.class8 {
+    background-color: red;
+}
+
+.class9 {
+    background-color: blue;
+
+
+}
+
+.class10 {
+    background-color: yellow;
+}
+
+.class11 {
+    background-color: green;
+}
+
+.class12 {
+    background-color: orange;
+}
+
+.school {
+    flex-basis: 100px;
+align-items: center;
+}

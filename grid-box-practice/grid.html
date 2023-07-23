@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid practice</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
+        }
+        .first{
+            background-color: red;
+            grid-column: span 2;
+        }
+        .secound{
+            background-color: yellow;
+        }
+        .third{
+            background-color: blue;
+        }
+        .fourth{
+            background-color: pink;
+            grid-area: 2/2/2/4;
+        }
+        .fifth{
+            background-color: chartreuse;
+        }
+        .sixth{
+            background-color: firebrick;
+        }
+        .item{
+            height: 100px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first item">india</div>
+        <div class="secound item">usa</div>
+        <div class="third item">russia</div>
+        <div class="fourth item">china</div>
+        <div class="fifth item">germany</div>
+        <div class="sixth item">france</div>
+    </div>
+</body>
+</html>

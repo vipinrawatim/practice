@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+   justify-content: center;
+   
+}
+
+.a {
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+
+.b {
+    background-color: beige;
+
+    border: 2px solid black;
+}
+
+.c {
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.d {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.e {
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.flex-items {
+ flex-basis: 100px;
+  
+}

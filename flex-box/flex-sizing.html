@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex sizing</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+            
+            
+        }
+        .red{
+            background-color: red;
+            border: 1px solid black;
+            flex: 1;
+        }
+        .yellow{
+            background-color: yellow;
+            border: 1px solid black;
+            flex: 2;
+        }
+        .green{
+            background-color: green;
+            border: 1px solid black;
+            flex: 3;
+        }
+        .blue{
+            background-color: blue;
+            border: 1px solid black;
+        }
+        .pink{
+            background-color: pink;
+            border: 1px solid black;
+        }
+        .default{
+            
+           flex-basis: 0;
+            flex-grow: 1;
+            flex-shrink: 1;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="red default">home how are you buddy i am so happy to see you</p>
+        <p class="yellow default">about me i am good</p>
+        <p class="green default">contact me as soon as possible</p>
+       
+    </div>
+</body>
+</html
